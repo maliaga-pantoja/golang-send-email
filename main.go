@@ -1,4 +1,4 @@
-package email_sender_go
+package main
 
 import (
 	"email-sender/m/src"

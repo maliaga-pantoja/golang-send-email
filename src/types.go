@@ -26,7 +26,7 @@ type EnvStruct struct {
 }
 
 func (e *EnvStruct) Verify () (*EnvStruct, error) {
-	smtpHost := os.Getenv("SMTP_HOSt")
+	smtpHost := os.Getenv("SMTP_HOST")
 	smtpPort := os.Getenv("SMTP_PORT")
 	user := os.Getenv("SMTP_USER")
 	password := os.Getenv("SMTP_PASSWORD")
